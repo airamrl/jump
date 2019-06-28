@@ -1,0 +1,397 @@
+
+/*row es para la altura de la columna y columns el ancho*/
+/* .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    grid-template-rows: repeat(8, 1fr);
+
+}
+
+.contenedor .item2 {
+
+    background: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+/*CON AREAS*/
+.contenedor {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: repeat(9, auto);
+    grid-template-areas: "header header header header" 
+                         "nosotros nosotros ayudar ayudar"
+                         /* "nosotros nosotros ayudar ayudar" */
+                         "reciclaje reciclaje donacion donacion"
+                         "labor labor labor labor"
+                         "noti noti  repor repor"
+                         "noti noti repor repor"
+                         "empre empre empre empre"
+                         "fopr fopr fopr fopr"
+                         "fopr fopr fopr fopr"
+                         "aten aten aten aten"
+                         "copiti copiti copiti copiti";
+
+
+
+}
+
+/*BANNER PRINCIPAL*/
+
+.contenedor .header {
+    background-position: center 0; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: header;
+    grid-column-end: header;
+    height: 40rem;
+    /* height: 28rem; */
+}
+
+/* NOSOTROS */
+
+
+
+.contenedor .nosotros {
+
+    
+    /* background: #393e46;  */
+    background-image: url(../img/nosotros.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+    grid-area:nosotros;
+
+
+}
+
+
+.nosotros h1 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+
+/*COMO AYUDAR*/
+
+.contenedor .ayudar{
+    background-image: url(../img/ayudar.jpg);
+    background-size: cover;
+
+
+
+    grid-area: ayudar;
+    
+}
+
+.ayudar h2 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*RECICLAJE*/
+
+.contenedor .reciclaje {
+    background-image: url(../img/recicla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    grid-area: reciclaje;
+}
+
+.reciclaje li {
+    color: #000000;
+}
+
+
+
+.reciclaje h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+
+/*DONACION*/
+
+.contenedor .donacion {
+    background-image: url(../img/donar.jpg);
+    background-size: cover;
+
+
+
+    grid-area: donacion;
+}
+
+
+.donacion h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+
+
+.donacion li {
+    color: #000000;
+}
+/* NUESTRA LABOR SOCIAL*/
+
+.contenedor .labor {
+    background-image: url(../img/nuestralab.jpg);
+    background-size: cover;
+    
+
+    grid-area: labor;
+}
+
+
+
+.labor h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+.labor .apoyo {
+    
+}
+
+/* NOTICIAS Y REPORTAJES LATERAL IZQUIERDO*/
+
+.contenedor .noti {
+    background: #ffffff;
+    grid-area: noti;
+}
+
+.noti h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+    margin-left: 16%;
+}
+
+
+/* .lanoti { 
+
+    border: red solid 5px;
+    width: 40%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 16%;
+
+
+} */
+
+
+
+
+.vermasnoti {
+    
+    text-align: center;
+    padding: 3%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+    background-color: rgba(111, 186, 5, 0.7);
+
+    text-transform: uppercase;
+    margin-left: 73%;
+   
+}
+
+
+/*NOTICIAS Y REPORTAJES PRINCIPAL*/
+
+
+
+
+.contenedor .repor {
+    background: white;
+    grid-area: repor;
+}
+
+
+.repor h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+.repor p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+
+.imagenrepor img {
+    height: 40%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 4%; 
+}
+
+.titureportajes {
+    width: 50%;
+    height: 10%;
+    font-weight: bold;
+    color: #6FBA05;
+    margin-left: 4%;
+
+}
+
+.vermasrepor {
+    
+    text-align: center;
+    padding: 3%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+    background-color: rgba(111, 186, 5, 0.7);
+
+    text-transform: uppercase;
+    margin-left: 73%;
+   
+}
+
+
+
+
+/*EMPRESAS SOLIDARIAS*/
+
+.contenedor .empre {
+    background: blueviolet;
+    grid-area: empre;
+}
+
+/*FOOTER PRINCIPAL */
+.contenedor .fopr {
+    background: brown;
+    grid-area: fopr;
+}
+
+/*FOOTER HORARIO DE ATENCION*/
+
+.contenedor .aten {
+    background:burlywood;
+    grid-area: aten;
+}
+
+
+/*COPYRIGHT*/
+
+.contenedor .copiti {
+    background:aqua;
+    grid-area: copiti;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        
+        grid-template-areas: "header header header header" 
+                            "nosotros nosotros nosotros nosotros"
+                         /* "nosotros nosotros ayudar ayudar" */
+                             "ayudar ayudar ayudar ayudar"
+                            "reciclaje reciclaje reciclaje reciclaje"
+                            "donacion donacion donacion donacion"
+                             "labor labor labor labor"
+                             "noti noti noti noti"
+                            "repor repor repor repor"
+                            "empre empre empre empre"
+                            "fopr fopr fopr fopr"
+                            "aten aten aten aten"
+                            "copiti copiti copiti copiti";
+                 }
+
+   
+   
+   
+    /*MEDIA QUERIES PARA LAS IMAGENES */
+
+
+    .reciclaje {
+        background-image: url(../img/recicla2.jpg);
+        background-size: contain;
+        background-position: left;
+        
+    }
+
+    .re {
+        text-align: center;
+        padding: 0% 2% 0% 10%;
+    }
+
+    .labor div {
+
+        align-items: center;
+    
+        padding: 2% 11% 0% 14%;
+
+    }
+   
+    
+
+    
+}
+
+
+
+/*@media screen and (max-width: 375px){ */
+
+@media screen and (max-width: 480px) {
+    p, li {
+        font-size: 12px;
+        padding: 1% 1% 1% 1%;
+    
+    }
+
+
+    .nosotros {
+
+
+        background-image: url(../img/nosotros.png);
+        background-size: contain;
+        /* background-position: center; */
+    
+        /* background-image: url(../img/nosotros.png);
+        background-size: 70%;
+        background-size: cover; */
+        
+    }
+
+
+    .re {
+        text-align: center;
+        padding: 0% 2% 0% 10%;
+    }
+
+    .labor div {
+
+        padding: 2% 2% 0% 34%;
+
+    }
+   
+}
+
+
+
+
+/*ESTILOS PARRAFOS ENCABEZADOS*/
+

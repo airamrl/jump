@@ -1,0 +1,224 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #eeeeee;
+    color: #000;
+    list-style: none;
+}
+
+
+.header {
+    /*yo*/
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 15; */
+    font-weight: bold;
+    background-image: url(../img/banner.jpg);
+    text-align: center;
+    padding: 100px 100px;
+}
+
+
+nav {
+margin-left: 16%;
+}
+
+ .ticentral {
+     width: 45%;
+     text-align: left;
+     font-weight: bold;
+     color: white;
+     padding: 7%;
+ }
+
+
+/*BOTONES*/
+
+.botones {
+
+
+    
+    margin-left: 7%;
+    width: 16%;
+    /* border: red solid 10px; */
+   
+}
+
+.quidon h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #6FBA05;
+    background-color: rgba(255, 255, 255, 0.7);
+   
+  
+    text-transform: uppercase;
+    
+ }
+
+ /*BOTON QUIERO DONAR*/
+
+ .quirec h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+    background-color: rgba(111, 186, 5, 0.7);
+   
+  
+    text-transform: uppercase;
+  
+
+    
+ }
+
+ /* .quidon {
+
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+ } */
+
+
+  /* padding: 12%; */
+ /* .quidon h2 {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #6FBA05;
+   
+  
+    text-transform: uppercase;
+    
+ }
+  */
+
+ /*BOTON QUIERO RECICLAR*/
+ /* .quirec {
+
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+  
+    
+    background-color: rgba(111, 186, 5, 0.7);
+    
+ }
+
+ .quirec h2 {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+ 
+  
+    text-transform: uppercase;
+    
+ } */
+
+ /*ACA TERMNAN LOS BOTONES DEL BANNER*/
+
+.contenedor {
+
+    width: 100%;
+    border: 10px solid black;
+    margin: auto;
+   
+    font-size: 14px;
+    line-height: 20px;
+    /* text-align: center; */
+
+}
+
+.contenedor > div {
+
+    display: block;
+    padding: 20px;
+    
+    
+    
+}
+
+
+/*ESTILOS ENCABEZADOS PARRAFOS*/
+
+h1, h2 {
+    padding: 10% 10% 2% 10%;
+    
+}
+
+p {
+    padding: 2% 10% 10% 10%;
+    text-align: left;
+}
+
+
+
+.tb {
+    color: white;
+}
+
+/* ESTO ES PARA OPEN SANS
+.re {
+    text-align: left;
+    padding: 0% 2% 0% 60%;
+} */
+
+
+.re {
+    text-align: left;
+    padding: 0% 3% 0% 70%;
+}
+
+
+
+/* NUESTRA LABOR SOCIAL */
+
+.apoyo, .trabajo, .proyectos, .convenios {
+    
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: inline-block;
+    justify-content: center; */
+    justify-items: center;
+    align-items: center; 
+    padding: 0% 8% 0% 7%;
+    
+}
+
+.labor p {
+    text-align: center;
+    color: white;
+}
+
+/* .trabajo {
+    display: inline-block;
+} */
+
+/*NOSOTROS*/
+
+/* .nosotros {
+    background: url(../img/nosotros.jpg);
+
+} */
+
