@@ -140,7 +140,7 @@ margin-left: 16%;
 .contenedor {
 
     width: 100%;
-    border: 10px solid black;
+    /* border: 10px solid black; */
     margin: auto;
    
     font-size: 14px;
@@ -166,10 +166,14 @@ h1, h2 {
     
 }
 
-p {
+
+/*SABADO 28, QUITE ESTO PORQUE ESPACIABA DEMASIASO LOS PARRAFOS*/
+
+
+/* p {
     padding: 2% 10% 10% 10%;
     text-align: left;
-}
+} */
 
 
 
@@ -222,3 +226,36 @@ p {
 
 } */
 
+
+
+/*FOOTER PRINCIPAL*/
+
+.fopr {
+    /*yo*/
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 15; */
+    font-weight: bold;
+    background-image: url(../img/footerimagen.jpg);
+    text-align: center;
+    padding: 100px 100px;
+    
+}
+
+
+
+
+/*HORARIO DE ATENCIÓN*/
+
+.aten {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+
+}
+
+.copiti {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+
+}

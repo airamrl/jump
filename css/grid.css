@@ -27,9 +27,9 @@
                          "labor labor labor labor"
                          "noti noti  repor repor"
                          "noti noti repor repor"
-                         "empre empre empre empre"
+                         "empre empre dosempre dosempre"
                          "fopr fopr fopr fopr"
-                         "fopr fopr fopr fopr"
+                         /* "fopr fopr fopr fopr" */
                          "aten aten aten aten"
                          "copiti copiti copiti copiti";
 
@@ -77,6 +77,12 @@
     color: #6FBA05;
 }
 
+.nosotros p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
 /*COMO AYUDAR*/
 
 .contenedor .ayudar{
@@ -95,6 +101,12 @@
     color: #ffffff;
 }
 
+
+.ayudar p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
 /*RECICLAJE*/
 
 .contenedor .reciclaje {
@@ -145,12 +157,20 @@
 .contenedor .labor {
     background-image: url(../img/nuestralab.jpg);
     background-size: cover;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    text-align: center;
     
+
+
 
     grid-area: labor;
 }
 
 
+.labor img{
+    width: 150%;
+}
 
 .labor h3 {
     font-family: 'Open Sans' , sans-serif;
@@ -168,6 +188,9 @@
 
 .contenedor .noti {
     background: #ffffff;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     grid-area: noti;
 }
 
@@ -179,16 +202,24 @@
 }
 
 
-/* .lanoti { 
+.lanoti { 
 
-    border: red solid 5px;
-    width: 40%;
-    height: 20%;
+    /* border: red solid 5px; */
+    width: 75%;
+    height: 23%;
     margin-top: 5%;
     margin-left: 16%;
+    
 
 
-} */
+}
+
+.titularnoti {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+    
+}
 
 
 
@@ -205,6 +236,7 @@
 
     text-transform: uppercase;
     margin-left: 73%;
+    
    
 }
 
@@ -224,18 +256,24 @@
     font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
     color: #6FBA05;
+    margin-left: 6%;
 }
+
+
 .repor p {
     font-family: 'Open Sans';
     font-size: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 
 .imagenrepor img {
     height: 40%;
-    width: 70%;
+    width: 92%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 7%;
     margin-bottom: 4%; 
 }
 
@@ -269,29 +307,143 @@
 /*EMPRESAS SOLIDARIAS*/
 
 .contenedor .empre {
-    background: blueviolet;
+    background: #ffffff;
     grid-area: empre;
 }
 
-/*FOOTER PRINCIPAL */
-.contenedor .fopr {
-    background: brown;
-    grid-area: fopr;
+.empre h3 {
+
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
 }
 
+.ciudad {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+
+.dosempre {
+    background: #ffffff;
+    grid-area: dosempre;
+
+}
+
+
+.dosempre .solilogos img {
+    width: 8rem;
+}
+/*FOOTER PRINCIPAL */
+
+.contenedor .fopr {
+    
+   
+    background-position: center 0; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: normal;
+    grid-column-start: fopr;
+    grid-column-end: fopr;
+    
+    height: 30rem;
+
+    
+
+    /* grid-area: fopr; */
+}
+
+.fopr > div {
+    text-align: left;
+    margin-top: 23rem;
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fopr > div > div {
+    margin-right: 5%;
+}
+.logitofooter {
+    /* display: inline-block; */
+    line-height: normal;
+    height: 5rem;
+    /* margin-top: 11rem;
+    margin-right: 5rem; */
+    /* border: skyblue solid 5px; */
+}
+
+
+
+.fopr p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-right: 5%; 
+    
+ 
+   
+
+}
+
+.iz {
+
+    /* display: inline-block; */
+    line-height: normal;
+    height: 5rem;
+    /* margin-top: 15rem;
+    margin-right: 5rem; */
+    /* border: skyblue solid 5px; */
+   
+}
+
+
+
+.der {
+    /* display: inline-block; */
+    line-height: normal;
+    height: 5rem;
+    
+    /* margin-top: 16rem;
+    margin-right: 5rem; */
+    /* border: skyblue solid 5px; */
+}
 /*FOOTER HORARIO DE ATENCION*/
 
 .contenedor .aten {
-    background:burlywood;
+    background:#4c8102;
+    height: 5rem;
+
     grid-area: aten;
+}
+
+.aten h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.aten p {
+    color: #ffffff;
+    
 }
 
 
 /*COPYRIGHT*/
 
 .contenedor .copiti {
-    background:aqua;
+    background:#345800;
+    height: 3rem;
+
     grid-area: copiti;
+}
+
+.copiti p {
+    color: #ffffff;
+
+    
 }
 
 
@@ -315,6 +467,7 @@
                              "noti noti noti noti"
                             "repor repor repor repor"
                             "empre empre empre empre"
+                            "dosempre dosempre dosempre dosempre"
                             "fopr fopr fopr fopr"
                             "aten aten aten aten"
                             "copiti copiti copiti copiti";
